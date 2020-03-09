@@ -1,0 +1,100 @@
+body {
+  background-color: #f7f7f7;
+}
+
+p {
+  margin-bottom: 3px !important;
+}
+
+.bgCover {
+  background-size: cover;
+  background-position: center center;
+}
+
+.header {
+  background-image: url("../img/Hero.png");
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.area {
+  width: 50%;
+  opacity: 0.5;
+  background: rgba(255, 255, 255, 0.7);
+  border: 3px solid #ffffff;
+  outline: none;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.popularDestination {
+  margin-top: 130px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.popularDestination .btn {
+  width: 15%;
+}
+
+.popularDestination .btnOne {
+  background-color: #8a82cc;
+  border: 1px solid #8a82cc;
+}
+
+.popularDestination .btnTwo {
+  background-color: #ffa782;
+  border: 1px solid #ffa782;
+}
+
+.popularDestination .btnThree {
+  background-color: #f5d005;
+  border: 1px solid #f5d005;
+}
+
+.popularDestination .btnFour {
+  background-color: #559ac8;
+  border: 1px solid #559ac8;
+}
+
+.dottedLine {
+  border-top: 2px dashed #559ac8;
+  height: 2px;
+  overflow: hidden;
+  position: relative;
+}
+
+.downIcon {
+  width: 40px;
+  height: 40px;
+  background-color: #efefef;
+  border: 3px #559ac8 solid;
+  border-radius: 100px;
+  position: absolute;
+  top: 52%;
+  left: 49%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  margin: 15px 0 0 7px;
+  border-color: #559ac8 transparent transparent transparent;
+}
+
+.top button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.footer {
+  background-color: #559ac8;
+}
